@@ -4,16 +4,22 @@
     <meta charset="UTF-8" > 
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title> Expense Tracker </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="expense_tracker_image.png" alt="expense tracker logo">
-        <h1> Expense Tracker</h1>
+        <img class="logo" src="expense_tracker_image.png" alt="expense tracker logo">
+
+    <div class="header-text">
+        <h1><span class="span1">E</span>xpense <span class="span2">T</span>racker</h1>
         <p> Track your daily expenses.</p>
+        
+
+    </div>  
         
     </header>
 
-    <main>
+    <main class="container">
         <section class="summary-section">
             <div class="balance-card">
                 <h2>Balance</h2>
@@ -39,7 +45,7 @@
             <h3>Add Transaction</h3>
 
             <!--Trasaction type-->
-            <div class="form-group">
+            <div class="transaction-type">
                 <p> Type </p>
 
                 <input type="radio" name="type" id="income" value="income"  required>
@@ -97,7 +103,7 @@
             </div>
 
             <!--submit button-->
-            <button type="submit">Add transaction</button>
+            <button class="btn" type="submit">Add transaction</button>
             
             
         </form>
