@@ -1,0 +1,130 @@
+<!DOCTYPE HTML >
+<html lang="en">
+<head>
+    <meta charset="UTF-8" > 
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title> Expense Tracker </title>
+</head>
+<body>
+    <header>
+        <img src="expense_tracker_image.png" alt="expense tracker logo">
+        <h1> Expense Tracker</h1>
+        <p> Track your daily expenses.</p>
+        
+    </header>
+
+    <main>
+        <section class="summary-section">
+            <div class="balance-card">
+                <h2>Balance</h2>
+                <p>₹0</p>
+            </div>
+
+            <div class="income-card">
+                <h2>Income</h2>
+                <p>₹0</p>
+            </div>
+
+            <div class="expense-card">
+                <h2>Expense</h2>
+                <p>₹0</p>
+            </div>
+
+        </section>
+      
+    
+
+        <form id="transaction-form">
+
+            <h3>Add Transaction</h3>
+
+            <!--Trasaction type-->
+            <div class="form-group">
+                <p> Type </p>
+
+                <input type="radio" name="type" id="income" value="income"  required>
+                <label for="income">Income</label>
+
+                <input type="radio" name="type" id="expense" value="expense">
+                <label for="expense">Expense</label>
+            </div>
+                
+            <!--Amount-->
+               <div class="form-group">
+                    <label for="amount">Amount</label>
+                    <input type="number"
+                    id="amount"
+                    name="amount"
+                    placeholder="Enter amount"
+                    min="1"
+                    step="0.01"
+                    required>
+
+               </div>
+
+            <!--Description-->
+               
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description" placeholder="Enter description" required>
+            </div>
+
+            <!--Category-->
+            <div class="form-group">
+
+                <label for="category">Category</label>
+            <select name="category" id="category" required>
+                
+                <option value=""selected disabled>Select Category</option> 
+                <option value="food">Food</option>
+                <option value="shopping">Shopping</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="education">Education</option>
+                <option value="travel">Travel</option>
+                <option value="recharge">Recharge</option>
+                <option value="grocery">Grocery</option>
+
+                <option value="other"> Other </option>
+            </select>
+
+            </div>
+
+            <!--Date-->
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+
+            </div>
+
+            <!--submit button-->
+            <button type="submit">Add transaction</button>
+            
+            
+        </form>
+
+
+        <section class="history-card">
+            <h2> Transaction history </h2>
+            <p>No transaction history available</p>
+            
+            <div class="transaction-history">
+
+            </div>
+
+        </section>
+
+        
+
+
+
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>
+
