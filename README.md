@@ -34,3 +34,7 @@ Version 1.0
 ##  Live Demo
 
 https://expense-tracker-rose-gamma-42.vercel.app/
+
+## 📸 Screenshot
+
+![Expense Tracker](assets/images/expense-tracker.png)
