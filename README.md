@@ -45,3 +45,4 @@ GitHub repository:https://github.com/Aditya312006/Expense-tracker/edit/main/READ
 
 ![Expense Tracker](assets/images/expense-tracker.png)
 >>>>>>> cdd4824217634dbc46e5de84fba0ca39018399d4
+>>>>>>> 
