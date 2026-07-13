@@ -35,7 +35,7 @@ Version 1.0
 
 ##  Live Demo
 
-https://expense-tracker-rose-gamma-42.vercel.app/## 📂 Source Code
+https://expense-tracker-rose-gamma-42.vercel.app/
 
 ## Source Code 
 
