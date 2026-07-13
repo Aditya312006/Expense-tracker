@@ -30,3 +30,14 @@ Version 1.0
 - Category Filter
 - Charts
 - Export PDF/Excel
+<<<<<<< HEAD
+=======
+
+##  Live Demo
+
+https://expense-tracker-rose-gamma-42.vercel.app/
+
+## 📸 Screenshot
+
+![Expense Tracker](assets/images/expense-tracker.png)
+>>>>>>> cdd4824217634dbc46e5de84fba0ca39018399d4
