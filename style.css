@@ -86,9 +86,9 @@ header{
     box-shadow:0 2px 8px rgba(0,0,0,0.5)
 }
 .balance-card{
-    background-color: greenyellow;
-    
-}
+    background-color: rgb(169, 180, 154);
+}   
+
 .income-card{
     background-color: rgb(27, 180, 27);
 }
