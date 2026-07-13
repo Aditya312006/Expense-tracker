@@ -39,7 +39,7 @@ https://expense-tracker-rose-gamma-42.vercel.app/## 📂 Source Code
 
 ## Source Code 
 
-Git repositary:https://github.com/Aditya312006/Expense-tracker/edit/main/README.md
+GitHub repository:https://github.com/Aditya312006/Expense-tracker/edit/main/README.md
 
 ## 📸 Screenshot
 
