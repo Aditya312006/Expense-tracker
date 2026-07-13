@@ -35,7 +35,11 @@ Version 1.0
 
 ##  Live Demo
 
-https://expense-tracker-rose-gamma-42.vercel.app/
+https://expense-tracker-rose-gamma-42.vercel.app/## 📂 Source Code
+
+## Source Code 
+
+Git repositary:https://github.com/Aditya312006/Expense-tracker/edit/main/README.md
 
 ## 📸 Screenshot
 
