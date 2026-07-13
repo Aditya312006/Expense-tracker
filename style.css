@@ -41,7 +41,7 @@ header{
     color:red;
 }
 .span2{
-    color:blue;
+    color:rgb(81, 14, 148);
 }
 .container{
     width:100%;
@@ -86,14 +86,14 @@ header{
     box-shadow:0 2px 8px rgba(0,0,0,0.5)
 }
 .balance-card{
-    background-color: rgb(169, 180, 154);
+    background-color: white;
 }   
 
 .income-card{
     background-color: rgb(27, 180, 27);
 }
 .expense-card{
-    background-color:rgba(235, 12, 12, 0.482);
+    background-color:red;
 }
 .income-item{
     border-left: 6px solid green;
